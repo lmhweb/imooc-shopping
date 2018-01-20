@@ -1,15 +1,15 @@
 'use strict'
-require('./check-versions')()
+require('./check-versions')()//检测版本
 
-process.env.NODE_ENV = 'production'
+process.env.NODE_ENV = 'production' //全局环境变化;
 
 const ora = require('ora')
 const rm = require('rimraf')
 const path = require('path')
 const chalk = require('chalk')
 const webpack = require('webpack')
-const config = require('../config')
-const webpackConfig = require('./webpack.prod.conf')
+const config = require('../config')//==config = require('../config/index.js') 读取config下的index
+const webpackConfig = require('./webpack.prod.conf')//生产包的配置;
 
 const spinner = ora('building for production...')
 spinner.start()

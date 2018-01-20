@@ -1,7 +1,7 @@
 'use strict'
-const chalk = require('chalk')
-const semver = require('semver')
-const packageConfig = require('../package.json')
+const chalk = require('chalk')//输出文案的颜色
+const semver = require('semver')//版本检查工具 版本号是否合法
+const packageConfig = require('../package.json')//
 const shell = require('shelljs')
 
 function exec (cmd) {
