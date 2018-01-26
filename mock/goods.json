@@ -1,0 +1,96 @@
+{
+  "status":"0",
+  "msg":"",
+  "result":[
+    {
+      "productId":"100001",
+      "productName":"蓝牙音箱",
+      "productPrice":"29.9",
+      "productImg":"1.jpg"
+    },
+    {
+      "productId":"100002",
+      "productName":"自拍杆",
+      "productPrice":"129.9",
+      "productImg":"2.jpg"
+    },
+    {
+      "productId":"100003",
+      "productName":"耳机",
+      "productPrice":"229.9",
+      "productImg":"3.jpg"
+    },
+    {
+      "productId":"100002",
+      "productName":"自拍杆",
+      "productPrice":"129.9",
+      "productImg":"2.jpg"
+    },
+    {
+      "productId":"100002",
+      "productName":"自拍杆",
+      "productPrice":"129.9",
+      "productImg":"2.jpg"
+    },
+    {
+      "productId":"100002",
+      "productName":"自拍杆",
+      "productPrice":"129.9",
+      "productImg":"2.jpg"
+    },
+    {
+      "productId":"100002",
+      "productName":"自拍杆",
+      "productPrice":"129.9",
+      "productImg":"2.jpg"
+    },
+    {
+      "productId":"100002",
+      "productName":"自拍杆",
+      "productPrice":"129.9",
+      "productImg":"2.jpg"
+    },{
+      "productId":"100002",
+      "productName":"自拍杆",
+      "productPrice":"129.9",
+      "productImg":"2.jpg"
+    },{
+      "productId":"100002",
+      "productName":"自拍杆",
+      "productPrice":"129.9",
+      "productImg":"2.jpg"
+    },{
+      "productId":"100002",
+      "productName":"自拍杆",
+      "productPrice":"129.9",
+      "productImg":"2.jpg"
+    },{
+      "productId":"100002",
+      "productName":"自拍杆",
+      "productPrice":"129.9",
+      "productImg":"2.jpg"
+    },{
+      "productId":"100002",
+      "productName":"自拍杆",
+      "productPrice":"129.9",
+      "productImg":"2.jpg"
+    },{
+      "productId":"100002",
+      "productName":"自拍杆",
+      "productPrice":"129.9",
+      "productImg":"2.jpg"
+    },{
+      "productId":"100002",
+      "productName":"自拍杆",
+      "productPrice":"129.9",
+      "productImg":"2.jpg"
+    }
+
+
+
+
+
+
+
+  ]
+}
