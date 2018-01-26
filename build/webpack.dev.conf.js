@@ -8,7 +8,13 @@ const baseWebpackConfig = require('./webpack.base.conf')
 const CopyWebpackPlugin = require('copy-webpack-plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const FriendlyErrorsPlugin = require('friendly-errors-webpack-plugin')
-const portfinder = require('portfinder')
+const portfinder = require('portfinder');
+
+const express = require('express');
+const app = express();
+var apiRoutes = express.Router();
+app.use('/api', apiRoutes);
+const goodsData=require("./../mock/goods.json");
 
 const HOST = process.env.HOST
 const PORT = process.env.PORT && Number(process.env.PORT)
@@ -42,6 +48,13 @@ const devWebpackConfig = merge(baseWebpackConfig, {
     quiet: true, // necessary for FriendlyErrorsPlugin
     watchOptions: {
       poll: config.dev.poll,
+    },
+    before(app) {
+      app.get('/api/goods', (req, res) => {
+        res.json({
+          data: goodsData
+        })//接口返回json数据，上面配置的数据seller就赋值给data请求后调用
+      })
     }
   },
   plugins: [
